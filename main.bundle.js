@@ -34,7 +34,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/about/about.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\"></head>\r\n<!-- Add icon library -->\r\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n\r\n<header class='masthead'>\r\n   \r\n    <p class='masthead-intro'>Hi I'm</p>\r\n    <h1 class='masthead-heading'>Dr.Deepak David!</h1>\r\n  </header>\r\n  <section class=\"introduction-section\">\r\n      <h1>Introduction</h1>\r\n      <p>I am an Urologist.</p>\r\n      <p>I love innovation and new technology.</p>\r\n  </section>\r\n  <section class=\"location-section\">\r\n      <h1>Where I'm From</h1>\r\n      <p>I'm originally from Nagercoil, Kanyakumari district. </p>\r\n      <h1>Education</h1>\r\n      <p>M.B.B.S., M.S., M.Ch Urology.,Dip. Lap</p>\r\n      <h1>Work Experience</h1>\r\n      <p>2+ years of experience in the field of urology in Dr jeyasekharan Medical Trust </p>\r\n  </section>\r\n  <section class=\"questions-section\">\r\n      <h1>More About Me</h1>\r\n      <h2>What are your favorite hobbies?</h2>\r\n      <p>My favorite hobby is trekking and exploring new places.</p>\r\n            <h2>Where do you live?</h2>\r\n      <p>I live in Nagercoil.</p>\r\n      \r\n  </section>\r\n  \r\n  <footer class=\"content-footer\">\r\n      <p>Say hi to me on these social networks:</p>\r\n   <!-- Add font awesome icons -->\r\n<a href=\"https://www.facebook.com/deepak.david.503\" target=\"_blank\" class=\"fa fa-facebook\"></a>\r\n<a href=\"https://twitter.com/\"  target=\"_blank\"class=\"fa fa-twitter\"></a>\r\n    \r\n  </footer>"
+module.exports = "<head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\"></head>\r\n<!-- Add icon library -->\r\n<link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css\">\r\n\r\n<header class='masthead'>\r\n   \r\n    <p class='masthead-intro'>Hi I'm</p>\r\n    <h1 class='masthead-heading'>Dr.Deepak David!</h1>\r\n  </header>\r\n  <section class=\"introduction-section\">\r\n      <h1>Introduction</h1>\r\n      <p>I am an Urologist.</p>\r\n      <p>I love innovation and new technology.</p>\r\n  </section>\r\n  <section class=\"location-section\">\r\n      <h1>Where I'm From</h1>\r\n      <p>I'm originally from Nagercoil, Kanyakumari district. </p>\r\n      <h1>Education</h1>\r\n      <p>M.B.B.S., M.S., M.Ch Urology.,Dip. Lap</p>\r\n      <h1>Work Experience</h1>\r\n      <p>2+ years of experience in the field of urology in Dr jeyasekharan Medical Trust. </p>\r\n  </section>\r\n  <section class=\"questions-section\">\r\n      <h1>More About Me</h1>\r\n      <h2>What are your favorite hobbies?</h2>\r\n      <p>My favorite hobby is trekking and exploring new places.</p>\r\n            <h2>Where do you live?</h2>\r\n      <p>I live in Nagercoil.</p>\r\n      \r\n  </section>\r\n  \r\n  <footer class=\"content-footer\">\r\n      <p>Say hi to me on these social networks:</p>\r\n   <!-- Add font awesome icons -->\r\n<a href=\"https://www.facebook.com/deepak.david.503\" target=\"_blank\" class=\"fa fa-facebook\"></a>\r\n<a href=\"https://twitter.com/\"  target=\"_blank\"class=\"fa fa-twitter\"></a>\r\n    \r\n  </footer>"
 
 /***/ }),
 
@@ -62,7 +62,7 @@ var AboutComponent = (function () {
     return AboutComponent;
 }());
 AboutComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-about',
         template: __webpack_require__("../../../../../src/app/about/about.component.html"),
         styles: [__webpack_require__("../../../../../src/app/about/about.component.css")]
@@ -118,7 +118,7 @@ var AppComponent = (function () {
     return AppComponent;
 }());
 AppComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-root',
         template: __webpack_require__("../../../../../src/app/app.component.html"),
         styles: [__webpack_require__("../../../../../src/app/app.component.css")]
@@ -140,25 +140,33 @@ AppComponent = __decorate([
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("../../../core/@angular/core.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_animations__ = __webpack_require__("../../../platform-browser/@angular/platform-browser/animations.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__("../../../../../src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__("../../../material/esm5/material.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__about_about_component__ = __webpack_require__("../../../../../src/app/about/about.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__home_home_component__ = __webpack_require__("../../../../../src/app/home/home.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__contact_contact_component__ = __webpack_require__("../../../../../src/app/contact/contact.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__testimonial_testimonial_component__ = __webpack_require__("../../../../../src/app/testimonial/testimonial.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__services_services_component__ = __webpack_require__("../../../../../src/app/services/services.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__agm_core__ = __webpack_require__("../../../../@agm/core/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__agm_snazzy_info_window__ = __webpack_require__("../../../../@agm/snazzy-info-window/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14_angularfire2__ = __webpack_require__("../../../../angularfire2/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_angularfire2_database_deprecated__ = __webpack_require__("../../../../angularfire2/database-deprecated/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_angularfire2_auth__ = __webpack_require__("../../../../angularfire2/auth/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material_dialog__ = __webpack_require__("../../../material/esm5/dialog.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_material__ = __webpack_require__("../../../material/esm5/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__about_about_component__ = __webpack_require__("../../../../../src/app/about/about.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__angular_router__ = __webpack_require__("../../../router/@angular/router.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__home_home_component__ = __webpack_require__("../../../../../src/app/home/home.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__contact_contact_component__ = __webpack_require__("../../../../../src/app/contact/contact.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__testimonial_testimonial_component__ = __webpack_require__("../../../../../src/app/testimonial/testimonial.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__services_services_component__ = __webpack_require__("../../../../../src/app/services/services.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__agm_core__ = __webpack_require__("../../../../@agm/core/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__agm_snazzy_info_window__ = __webpack_require__("../../../../@agm/snazzy-info-window/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__angular_material_snack_bar__ = __webpack_require__("../../../material/esm5/snack-bar.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_angularfire2__ = __webpack_require__("../../../../angularfire2/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18_angularfire2_database_deprecated__ = __webpack_require__("../../../../angularfire2/database-deprecated/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19_angularfire2_auth__ = __webpack_require__("../../../../angularfire2/auth/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_angular4_notify__ = __webpack_require__("../../../../angular4-notify/angular4-notify.umd.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20_angular4_notify___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_20_angular4_notify__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
 
 
 
@@ -178,23 +186,24 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 // New imports to update based on AngularFire2 version 4
 
 
+
 var firebaseConfig = {
-    apiKey: "AIzaSyDBdQWphzRA26WvxjIlONJP96v3MzDBBak",
-    authDomain: "deepakwebsite-a0cd0.firebaseapp.com",
-    databaseURL: "https://deepakwebsite-a0cd0.firebaseio.com",
-    projectId: "deepakwebsite-a0cd0",
+    apiKey: "AIzaSyCz0T0ZmdOFZlskaxPKkZ_vgIoZ6VlssbM",
+    authDomain: "deepaknagercoil.firebaseapp.com",
+    databaseURL: "https://deepaknagercoil.firebaseio.com",
+    projectId: "deepaknagercoil",
     storageBucket: "",
-    messagingSenderId: "523927135754"
+    messagingSenderId: "140601184665"
 };
 //Routing
 var appRoutes = [
     {
         path: 'about',
-        component: __WEBPACK_IMPORTED_MODULE_5__about_about_component__["a" /* AboutComponent */],
+        component: __WEBPACK_IMPORTED_MODULE_6__about_about_component__["a" /* AboutComponent */],
     },
     {
         path: 'home',
-        component: __WEBPACK_IMPORTED_MODULE_7__home_home_component__["a" /* HomeComponent */],
+        component: __WEBPACK_IMPORTED_MODULE_8__home_home_component__["a" /* HomeComponent */],
     },
     { path: '',
         redirectTo: '/home',
@@ -202,15 +211,15 @@ var appRoutes = [
     },
     {
         path: 'contact',
-        component: __WEBPACK_IMPORTED_MODULE_8__contact_contact_component__["a" /* ContactComponent */],
+        component: __WEBPACK_IMPORTED_MODULE_9__contact_contact_component__["a" /* ContactComponent */],
     },
     {
         path: 'testimonial',
-        component: __WEBPACK_IMPORTED_MODULE_9__testimonial_testimonial_component__["a" /* TestimonialComponent */],
+        component: __WEBPACK_IMPORTED_MODULE_10__testimonial_testimonial_component__["a" /* TestimonialComponent */],
     },
     {
         path: 'services',
-        component: __WEBPACK_IMPORTED_MODULE_10__services_services_component__["a" /* ServicesComponent */],
+        component: __WEBPACK_IMPORTED_MODULE_11__services_services_component__["a" /* ServicesComponent */],
     },
 ];
 //NgModule for material 
@@ -220,14 +229,16 @@ var MaterialModule = (function () {
     return MaterialModule;
 }());
 MaterialModule = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["M" /* NgModule */])({
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
         exports: [
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["g" /* MatToolbarModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["c" /* MatIconModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["a" /* MatButtonModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["f" /* MatSidenavModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["b" /* MatFormFieldModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["e" /* MatMenuModule */]
+            __WEBPACK_IMPORTED_MODULE_5__angular_material__["h" /* MatToolbarModule */],
+            __WEBPACK_IMPORTED_MODULE_5__angular_material__["c" /* MatIconModule */],
+            __WEBPACK_IMPORTED_MODULE_5__angular_material__["a" /* MatButtonModule */],
+            __WEBPACK_IMPORTED_MODULE_5__angular_material__["f" /* MatSidenavModule */],
+            __WEBPACK_IMPORTED_MODULE_5__angular_material__["b" /* MatFormFieldModule */],
+            __WEBPACK_IMPORTED_MODULE_5__angular_material__["e" /* MatMenuModule */],
+            __WEBPACK_IMPORTED_MODULE_4__angular_material_dialog__["b" /* MatDialogModule */],
+            __WEBPACK_IMPORTED_MODULE_16__angular_material_snack_bar__["b" /* MatSnackBarModule */]
         ]
     })
 ], MaterialModule);
@@ -239,33 +250,37 @@ var AppModule = (function () {
     return AppModule;
 }());
 AppModule = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["M" /* NgModule */])({
+    Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
         declarations: [
             __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */],
-            __WEBPACK_IMPORTED_MODULE_5__about_about_component__["a" /* AboutComponent */],
-            __WEBPACK_IMPORTED_MODULE_7__home_home_component__["a" /* HomeComponent */],
-            __WEBPACK_IMPORTED_MODULE_8__contact_contact_component__["a" /* ContactComponent */],
-            __WEBPACK_IMPORTED_MODULE_9__testimonial_testimonial_component__["a" /* TestimonialComponent */],
-            __WEBPACK_IMPORTED_MODULE_10__services_services_component__["a" /* ServicesComponent */]
+            __WEBPACK_IMPORTED_MODULE_6__about_about_component__["a" /* AboutComponent */],
+            __WEBPACK_IMPORTED_MODULE_8__home_home_component__["a" /* HomeComponent */],
+            __WEBPACK_IMPORTED_MODULE_9__contact_contact_component__["a" /* ContactComponent */],
+            __WEBPACK_IMPORTED_MODULE_10__testimonial_testimonial_component__["a" /* TestimonialComponent */],
+            __WEBPACK_IMPORTED_MODULE_11__services_services_component__["a" /* ServicesComponent */]
         ],
         imports: [
             __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+            __WEBPACK_IMPORTED_MODULE_15__angular_http__["c" /* HttpModule */],
             MaterialModule,
+            __WEBPACK_IMPORTED_MODULE_4__angular_material_dialog__["b" /* MatDialogModule */],
             __WEBPACK_IMPORTED_MODULE_2__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["b" /* MatFormFieldModule */],
-            __WEBPACK_IMPORTED_MODULE_4__angular_material__["d" /* MatInputModule */],
-            __WEBPACK_IMPORTED_MODULE_12__angular_forms__["i" /* ReactiveFormsModule */],
-            __WEBPACK_IMPORTED_MODULE_12__angular_forms__["d" /* FormsModule */],
-            __WEBPACK_IMPORTED_MODULE_14_angularfire2__["a" /* AngularFireModule */].initializeApp(firebaseConfig),
-            __WEBPACK_IMPORTED_MODULE_15_angularfire2_database_deprecated__["b" /* AngularFireDatabaseModule */],
-            __WEBPACK_IMPORTED_MODULE_16_angularfire2_auth__["b" /* AngularFireAuthModule */],
-            __WEBPACK_IMPORTED_MODULE_11__agm_core__["a" /* AgmCoreModule */].forRoot({
+            __WEBPACK_IMPORTED_MODULE_5__angular_material__["b" /* MatFormFieldModule */],
+            __WEBPACK_IMPORTED_MODULE_5__angular_material__["d" /* MatInputModule */],
+            __WEBPACK_IMPORTED_MODULE_16__angular_material_snack_bar__["b" /* MatSnackBarModule */],
+            __WEBPACK_IMPORTED_MODULE_13__angular_forms__["i" /* ReactiveFormsModule */],
+            __WEBPACK_IMPORTED_MODULE_20_angular4_notify__["NotificationsModule"],
+            __WEBPACK_IMPORTED_MODULE_13__angular_forms__["d" /* FormsModule */],
+            __WEBPACK_IMPORTED_MODULE_17_angularfire2__["a" /* AngularFireModule */].initializeApp(firebaseConfig),
+            __WEBPACK_IMPORTED_MODULE_18_angularfire2_database_deprecated__["b" /* AngularFireDatabaseModule */],
+            __WEBPACK_IMPORTED_MODULE_19_angularfire2_auth__["b" /* AngularFireAuthModule */],
+            __WEBPACK_IMPORTED_MODULE_12__agm_core__["a" /* AgmCoreModule */].forRoot({
                 apiKey: 'AIzaSyAj5WVCzS-nhQJvJMJWBt-spgHIwRbPRW4'
-            }), __WEBPACK_IMPORTED_MODULE_13__agm_snazzy_info_window__["a" /* AgmSnazzyInfoWindowModule */],
-            __WEBPACK_IMPORTED_MODULE_6__angular_router__["a" /* RouterModule */].forRoot(appRoutes, { enableTracing: true, useHash: true } // <-- debugging purposes only
+            }), __WEBPACK_IMPORTED_MODULE_14__agm_snazzy_info_window__["a" /* AgmSnazzyInfoWindowModule */],
+            __WEBPACK_IMPORTED_MODULE_7__angular_router__["RouterModule"].forRoot(appRoutes, { enableTracing: true, useHash: true } // <-- debugging purposes only
             )
         ],
-        providers: [],
+        providers: [__WEBPACK_IMPORTED_MODULE_20_angular4_notify__["NotificationsService"]],
         bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
     })
 ], AppModule);
@@ -282,7 +297,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 
 
 // module
-exports.push([module.i, "\r\n\r\n*, *:before, *:after {\r\n  box-sizing: inherit;\r\n}\r\np.solid {border-style: solid;\r\nfont-size: 15px;\r\nbackground-color:white;}\r\nhtml {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-family: 'Open Sans', sans-serif;\r\n  margin: 0;\r\n  background: #fff;\r\n  color: #999;\r\n}\r\n\r\n.section-lead {\r\n  max-width: 400px;\r\n  margin: 1rem auto 1.5rem;\r\n}\r\n\r\np {\r\n  font-size: 0.9rem;\r\n  margin: 1rem 0;\r\n  line-height: 1.5;\r\n}\r\n\r\nsection {\r\n  max-width: 1000px;\r\n  margin: 0 auto;\r\n  text-align: center;\r\n  padding: 30px;\r\n}\r\n\r\nh3 {\r\n  font-family: 'Montserrat', sans-serif;\r\n  font-weight: 600;\r\n  color: #333;\r\n  font-size: 1.825rem;\r\n  margin: 0px;\r\n}\r\n.example-full-width {\r\n  width: 240px;\r\n\r\n}\r\n\r\n/*Google Maps */\r\nagm-map {\r\n  height: 280px;\r\n  width:440px;\r\n   \r\n}\r\n\r\n\r\n\r\n\r\n.service a {\r\n  color: #5b7abb;\r\n  display: block;\r\n}\r\n\r\n.service h4 {\r\n  font-family: 'Montserrat', sans-serif;\r\n  font-weight: 600;\r\n  color: #56ceba;\r\n  font-size: 1.3rem;\r\n  margin: 1rem 0 0.6rem;\r\n}\r\n\r\n.services-grid {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n  -ms-flex-align: center;\r\n      align-items: center;\r\n}\r\n\r\n.service {\r\n  background: #ffffff;\r\n  margin: 20px;\r\n  \r\n  border-radius: 4px;\r\n  text-align: center;\r\n  -webkit-box-flex: 1;\r\n  -ms-flex: 1;\r\n      flex: 1;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  border: 2px solid #e7e7e7;\r\n  transition: all 0.3s ease;\r\n}\r\n\r\n.service:hover {\r\n  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);\r\n}\r\n\r\n\r\n\r\n\r\n.service1 h4,\r\n.service1 .cta {\r\n  color: #42b7ca;\r\n}\r\n\r\n.service1:hover {\r\n  border: 2px solid #42b7ca;\r\n}\r\n\r\n\r\n.service2 h4,\r\n.service2 .cta {\r\n  color: #425fca;\r\n}\r\n\r\n.service2:hover {\r\n  border: 2px solid #425fca;\r\n}\r\n\r\n\r\n\r\n\r\n.service .cta span {\r\n  font-size: 0.6rem;\r\n}\r\n\r\n.service > * {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1 1 100%;\r\n          flex: 1 1 100%;\r\n}\r\n\r\n.service .cta {\r\n  -ms-flex-item-align: end;\r\n      align-self: flex-end;\r\n}\r\n\r\n@media all and (max-width:900px) {\r\n  .services-grid {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-orient: vertical;\r\n    -webkit-box-direction: normal;\r\n    -ms-flex-direction: column;\r\n        flex-direction: column;\r\n  }\r\n}\r\n@media (max-width: 600px) {\r\n  /*Google Maps */\r\nagm-map {\r\n  height: 280px;\r\n  width:280px;\r\n   \r\n}\r\np.solid {border-style: solid;\r\n  font-size: 10px;\r\n  font-weight: bold;\r\nbackground-color:white;}\r\n}\r\n\r\n/* iPads (portrait and landscape) ----------- */\r\n@media only screen \r\nand (min-device-width : 768px) \r\nand (max-device-width : 1024px)  { \r\n  .example-form {\r\n    \r\n    width: 350px;\r\n\r\n}\r\n\r\n}\r\n@media only screen \r\nand (min-device-width : 768px) \r\nand (max-device-width : 1024px) \r\nand (orientation : landscape) { .example-form {\r\n  \r\n  width:350px;\r\n\r\n}\r\n}\r\n/*iPhone 6 landscape*/\r\n@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { \r\n  .example-form {\r\n    \r\n    width:400px;\r\n  \r\n  }\r\n  }\r\n  /*iphone 5*/\r\n  @media only screen \r\n  and (min-device-width : 414px) \r\n  and (max-device-width : 736px) \r\n  and (orientation : landscape) \r\n  and (-webkit-min-device-pixel-ratio : 3) \r\n{\r\n  .example-form {\r\n    \r\n    width:400px;\r\n  \r\n  }\r\n  p.solid {border-style: solid;\r\n    font-size: 12px;\r\n    background-color:white}\r\n }\r\n /* iphone5 */\r\n @media only screen \r\n and (min-device-width : 320px) \r\n and (max-device-width : 568px) \r\n and (orientation : landscape) { p.solid {border-style: solid;\r\n  font-size: 12px;\r\n  background-color:white}}\r\n @media only screen \r\n and (min-device-width : 590px) \r\n and (max-device-width : 767px) \r\n{\r\n .example-form {\r\n   \r\n   width:300px;\r\n \r\n }\r\n}\r\n /*iPhone 6plus landscape*/\r\n @media only screen \r\n and (min-device-width : 414px) \r\n and (max-device-width : 736px) \r\n and (orientation : landscape) { p.solid {border-style: solid;\r\n  font-size: 12px;\r\n  background-color:white;}}\r\n\r\n  /*nexus 5x*/\r\n  @media only screen\r\nand (min-height: 361px)\r\nand (max-height: 411px)\r\nand (min-width: 641px)\r\nand (max-width: 731px)\r\n{\r\n  .example-form {\r\n    \r\n    width:400px;\r\n  \r\n  }\r\n  p.solid {border-style: solid;\r\n    font-size: 10px;\r\n    font-weight: bold;\r\n  background-color:white;}\r\n}\r\n", ""]);
+exports.push([module.i, "\r\n\r\n*, *:before, *:after {\r\n  box-sizing: inherit;\r\n}\r\np.solid {border-style: solid;\r\nfont-size: 15px;\r\nbackground-color:white;}\r\nhtml {\r\n  box-sizing: border-box;\r\n}\r\n\r\nbody {\r\n  font-family: 'Open Sans', sans-serif;\r\n  margin: 0;\r\n  background: #fff;\r\n  color: #999;\r\n}\r\n\r\n.notify1{\r\n  \r\n  width: 25%;\r\n  padding: 8px 16px;\r\n  \r\n\r\n  \r\n}\r\n\r\n\r\n\r\n.section-lead {\r\n  max-width: 400px;\r\n  margin: 1rem auto 1.5rem;\r\n}\r\n\r\np {\r\n  font-size: 0.9rem;\r\n  margin: 1rem 0;\r\n  line-height: 1.5;\r\n}\r\n\r\nsection {\r\n  max-width: 1000px;\r\n  margin: 0 auto;\r\n  text-align: center;\r\n  padding: 30px;\r\n}\r\n\r\nh3 {\r\n  font-family: 'Montserrat', sans-serif;\r\n  font-weight: 600;\r\n  color: #333;\r\n  font-size: 1.825rem;\r\n  margin: 0px;\r\n}\r\n.example-full-width {\r\n  width: 240px;\r\n\r\n}\r\n\r\n/*Google Maps */\r\nagm-map {\r\n  height: 300px;\r\n  width:440px;\r\n   \r\n}\r\n\r\n\r\n\r\n\r\n.service a {\r\n  color: #5b7abb;\r\n  display: block;\r\n}\r\n\r\n.service h4 {\r\n  font-family: 'Montserrat', sans-serif;\r\n  font-weight: 600;\r\n  color: #56ceba;\r\n  font-size: 1.3rem;\r\n  margin: 1rem 0 0.6rem;\r\n}\r\n\r\n.services-grid {\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -webkit-box-align: center;\r\n  -ms-flex-align: center;\r\n      align-items: center;\r\n}\r\n\r\n.service {\r\n  background: #ffffff;\r\n  margin: 20px;\r\n  \r\n  border-radius: 4px;\r\n  text-align: center;\r\n  -webkit-box-flex: 1;\r\n  -ms-flex: 1;\r\n      flex: 1;\r\n  display: -webkit-box;\r\n  display: -ms-flexbox;\r\n  display: flex;\r\n  -ms-flex-wrap: wrap;\r\n      flex-wrap: wrap;\r\n  border: 2px solid #e7e7e7;\r\n  transition: all 0.3s ease;\r\n}\r\n\r\n.service:hover {\r\n  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.08);\r\n}\r\n\r\n\r\n\r\n\r\n.service1 h4,\r\n.service1 .cta {\r\n  color: #42b7ca;\r\n}\r\n\r\n.service1:hover {\r\n  border: 2px solid #42b7ca;\r\n}\r\n\r\n\r\n.service2 h4,\r\n.service2 .cta {\r\n  color: #425fca;\r\n}\r\n\r\n.service2:hover {\r\n  border: 2px solid #425fca;\r\n}\r\n\r\n\r\n\r\n\r\n.service .cta span {\r\n  font-size: 0.6rem;\r\n}\r\n\r\n.service > * {\r\n  -webkit-box-flex: 1;\r\n      -ms-flex: 1 1 100%;\r\n          flex: 1 1 100%;\r\n}\r\n\r\n.service .cta {\r\n  -ms-flex-item-align: end;\r\n      align-self: flex-end;\r\n}\r\n\r\n@media all and (max-width:900px) {\r\n  .services-grid {\r\n    display: -webkit-box;\r\n    display: -ms-flexbox;\r\n    display: flex;\r\n    -webkit-box-orient: vertical;\r\n    -webkit-box-direction: normal;\r\n    -ms-flex-direction: column;\r\n        flex-direction: column;\r\n  }\r\n}\r\n@media (max-width: 600px) {\r\n  /*Google Maps */\r\nagm-map {\r\n  height: 280px;\r\n  width:280px;\r\n   \r\n}\r\np.solid {border-style: solid;\r\n  font-size: 10px;\r\n  font-weight: bold;\r\nbackground-color:white;}\r\n}\r\n\r\n/* iPads (portrait and landscape) ----------- */\r\n@media only screen \r\nand (min-device-width : 768px) \r\nand (max-device-width : 1024px)  { \r\n  .example-form {\r\n    \r\n    width: 350px;\r\n\r\n}\r\n\r\n}\r\n@media only screen \r\nand (min-device-width : 768px) \r\nand (max-device-width : 1024px) \r\nand (orientation : landscape) { .example-form {\r\n  \r\n  width:350px;\r\n\r\n}\r\n}\r\n/*iPhone 6 landscape*/\r\n@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (orientation : landscape) { \r\n  .example-form {\r\n    \r\n    width:400px;\r\n  \r\n  }\r\n  }\r\n  /*iphone 5*/\r\n  @media only screen \r\n  and (min-device-width : 414px) \r\n  and (max-device-width : 736px) \r\n  and (orientation : landscape) \r\n  and (-webkit-min-device-pixel-ratio : 3) \r\n{\r\n  .example-form {\r\n    \r\n    width:400px;\r\n  \r\n  }\r\n  p.solid {border-style: solid;\r\n    font-size: 12px;\r\n    background-color:white}\r\n }\r\n /* iphone5 */\r\n @media only screen \r\n and (min-device-width : 320px) \r\n and (max-device-width : 568px) \r\n and (orientation : landscape) { p.solid {border-style: solid;\r\n  font-size: 12px;\r\n  background-color:white}}\r\n @media only screen \r\n and (min-device-width : 590px) \r\n and (max-device-width : 767px) \r\n{\r\n .example-form {\r\n   \r\n   width:300px;\r\n \r\n }\r\n}\r\n /*iPhone 6plus landscape*/\r\n @media only screen \r\n and (min-device-width : 414px) \r\n and (max-device-width : 736px) \r\n and (orientation : landscape) { p.solid {border-style: solid;\r\n  font-size: 12px;\r\n  background-color:white;}}\r\n\r\n  /*nexus 5x*/\r\n  @media only screen\r\nand (min-height: 361px)\r\nand (max-height: 411px)\r\nand (min-width: 641px)\r\nand (max-width: 731px)\r\n{\r\n  .example-form {\r\n    \r\n    width:400px;\r\n  \r\n  }\r\n  p.solid {border-style: solid;\r\n    font-size: 10px;\r\n    font-weight: bold;\r\n  background-color:white;}\r\n}\r\n\r\n\r\n\r\n", ""]);
 
 // exports
 
@@ -295,7 +310,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/contact/contact.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\">\r\n \r\n</head>\r\n\r\n<section>  \r\n        \r\n    <div class=\"services-grid\">\r\n        <div class=\"service service1\">\r\n         \r\n            <h4 class=\"section-lead\">Clinic hours  </h4>\r\n            <span class=\"section-lead\">Monday - Friday: 0.00 am-0.00pm<br>Saturday : 0.00 am-0.00pm<br>Sunday: 0.00 am-0.00pm</span>\r\n              \r\n        </div>\r\n       \r\n        \r\n        <div class=\"service service2\">\r\n        \r\n            <h4 class=\"section-lead\"> &emsp; &emsp;Contact us </h4>\r\n          \r\n                <i style=\"width:2%\" class=\"material-icons\">email</i> \r\n                <span style=\"font-size: 10px\" align =\"center\">drdeepak1983@gmail.com</span>\r\n                <i style=\"width:2%\" class=\"material-icons\">phone</i>\r\n                <span style=\"font-size: 10px\" align =\"center\">+91 9994029113</span><br>\r\n               \r\n        </div>\r\n        \r\n      </div>\r\n    <div class=\"services-grid\">\r\n      <div class=\"service service1\">\r\n       \r\n          <form class=\"example-form\" #formData=\"ngForm\" (ngSubmit)=\"onSubmit(formData)\">\r\n              <mat-form-field class=\"example-full-width\" >\r\n                <input matInput floatPlaceholder=\"auto\" placeholder=\"Name\" (ngModel)=\"name\" name=\"name\" required>\r\n              </mat-form-field>\r\n              \r\n              \r\n              <mat-form-field class=\"example-full-width\">\r\n                <input matInput placeholder=\"Enter your email\"  name=\"email\" required (ngModel)=\"email\" pattern=\"[a-zA-Z0-9.!#$% &’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*\">\r\n               <!-- <mat-error *ngIf=\"email.invalid\">{{getErrorMessage()}}</mat-error>-->\r\n              </mat-form-field><br>\r\n              <mat-form-field class=\"example-full-width\" >\r\n                <input matInput floatPlaceholder=\"auto\" placeholder=\"Subject\" (ngModel)=\"subject\" name=\"subject\">\r\n              </mat-form-field><br>\r\n              \r\n              <mat-form-field class=\"example-full-width\">\r\n                <textarea matInput placeholder=\"Message\" name=\"message\" (ngModel)=\"message\" required></textarea>\r\n              </mat-form-field>\r\n            <button mat-raised-button color=\"primary\" [disabled]=\"!formData.valid\" class=\"example-full-width\" >Send Message</button>\r\n              </form> \r\n             \r\n        \r\n      </div>\r\n     \r\n      \r\n      <div class=\"service service2\">\r\n      \r\n          <agm-map [latitude]=\"lat\" [longitude]=\"lng\">\r\n              <agm-marker [latitude]=\"lat\" [longitude]=\"lng\">\r\n                <agm-snazzy-info-window [isOpen]=\"true\" [latitude]=\"51.673858\" [longitude]=\"7.815982\" >\r\n                 <ng-template>\r\n                    <p class=\"solid\">KP Road, <br> Nagercoil, <br>Kanyakumari, Tamil Nadu </p>\r\n                  </ng-template>\r\n                </agm-snazzy-info-window>\r\n              </agm-marker>\r\n              </agm-map>\r\n             \r\n      </div>\r\n      \r\n    </div>\r\n    \r\n  </section>\r\n\r\n "
+module.exports = "<head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\">\r\n \r\n</head>\r\n\r\n<section>  \r\n        \r\n    <div class=\"services-grid\">\r\n        <div class=\"service service1\">\r\n         \r\n            <h4 class=\"section-lead\">Clinic hours  </h4>\r\n            <span class=\"section-lead\">Monday - Friday: 9.00 am-5.00 pm<br>Saturday : 9.00 am-2.00 pm<br>Sunday : 3.00 pm-5.00 pm</span>\r\n              \r\n        </div>\r\n       \r\n        \r\n        <div class=\"service service2\">\r\n        \r\n            <h4 class=\"section-lead\"> &emsp; &emsp;Contact Details  </h4>\r\n          \r\n                <i style=\"width:2%\" class=\"material-icons\">email</i> \r\n                <span style=\"font-size: 10px\" align =\"center\">drdeepak1983@gmail.com</span>\r\n                <i style=\"width:2%\" class=\"material-icons\">phone</i>\r\n\r\n\r\n                <span style=\"font-size: 10px\" align =\"center\">\r\n                  <a href=\"+91 9994029113\">+91 9994029113</a></span>\r\n               <!-- <span style=\"font-size: 10px\" align =\"center\">+91 9994029113</span><br>-->\r\n               \r\n        </div>\r\n        \r\n      </div>\r\n      <div class=\"notify1\">\r\n      <angular4-notify-notifications-container ></angular4-notify-notifications-container>\r\n    </div>\r\n    <div class=\"services-grid\">\r\n      <div class=\"service service1\">\r\n       \r\n          <form class=\"example-form\" #formData=\"ngForm\" (ngSubmit)=\"onSubmit(formData)\">\r\n              <mat-form-field class=\"example-full-width\" >\r\n                <input matInput floatPlaceholder=\"auto\" placeholder=\"Name\" (ngModel)=\"name\" name=\"name\" required>\r\n              </mat-form-field>\r\n              \r\n              \r\n              <mat-form-field class=\"example-full-width\">\r\n                <input matInput placeholder=\"Enter your email\"  name=\"email\" required (ngModel)=\"email\" pattern=\"[a-zA-Z0-9.!#$% &’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*\">\r\n               <!-- <mat-error *ngIf=\"email.invalid\">{{getErrorMessage()}}</mat-error>-->\r\n              </mat-form-field><br>\r\n              <mat-form-field class=\"example-full-width\" >\r\n                <input matInput floatPlaceholder=\"auto\" placeholder=\"Subject\" (ngModel)=\"subject\" name=\"subject\">\r\n              </mat-form-field><br>\r\n              \r\n              <mat-form-field class=\"example-full-width\">\r\n                <textarea matInput placeholder=\"Message\" name=\"message\" (ngModel)=\"message\" required></textarea>\r\n              </mat-form-field>\r\n            <button mat-raised-button color=\"primary\" [disabled]=\"!formData.valid\" class=\"example-full-width\" (click)=\"mess()\" >Send Message</button>\r\n              </form> \r\n             \r\n        \r\n      </div>\r\n      \r\n      \r\n      <div class=\"service service2\">\r\n      \r\n          <agm-map [latitude]=\"lat\" [longitude]=\"lng\">\r\n              <agm-marker [latitude]=\"lat\" [longitude]=\"lng\">\r\n                <agm-snazzy-info-window [isOpen]=\"true\" [latitude]=\"51.673858\" [longitude]=\"7.815982\" >\r\n                 <ng-template>\r\n                    <p class=\"solid\">KP Road, <br> Nagercoil, <br>Kanyakumari, Tamil Nadu </p>\r\n                  </ng-template>\r\n                </agm-snazzy-info-window>\r\n              </agm-marker>\r\n              </agm-map>\r\n             \r\n      </div>\r\n      \r\n    </div>\r\n   \r\n  </section>\r\n\r\n "
 
 /***/ }),
 
@@ -308,6 +323,14 @@ module.exports = "<head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrap
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_forms__ = __webpack_require__("../../../forms/@angular/forms.es5.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_angularfire2_database_deprecated__ = __webpack_require__("../../../../angularfire2/database-deprecated/index.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__ = __webpack_require__("../../../../angularfire2/auth/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_material__ = __webpack_require__("../../../material/esm5/material.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_http__ = __webpack_require__("../../../http/@angular/http.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise__ = __webpack_require__("../../../../rxjs/add/operator/toPromise.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rxjs_add_operator_toPromise__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__ = __webpack_require__("../../../../rxjs/add/operator/map.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_rxjs_add_operator_map__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angular4_notify__ = __webpack_require__("../../../../angular4-notify/angular4-notify.umd.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angular4_notify___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_angular4_notify__);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -321,16 +344,62 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 
 
+
+
+
+
+
+
 var ContactComponent = (function () {
-    function ContactComponent(afAuth, af) {
+    function ContactComponent(afAuth, af, http, snackBar, notificationsService) {
         this.afAuth = afAuth;
         this.af = af;
+        this.http = http;
+        this.snackBar = snackBar;
+        this.notificationsService = notificationsService;
         this.title = 'Location';
         this.lat = 8.184634;
         this.lng = 77.410362;
         this.msgVal = '';
+        /**end of firebase */
         this.email = new __WEBPACK_IMPORTED_MODULE_1__angular_forms__["b" /* FormControl */]('', [__WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_1__angular_forms__["j" /* Validators */].email]);
     }
+    ContactComponent.prototype.mess = function () {
+        this.notificationsService.addInfo('message sent');
+    };
+    /**snack bar
+   
+  
+   
+    openSnackBar() {
+      this.snackBar.openFromComponent(PizzaPartyComponent, {
+        duration: 500,
+      });
+    }
+        
+     
+  
+    end of snack bar */
+    /**firebase */
+    ContactComponent.prototype.sendEmail = function () {
+        var url = "https://console.firebase.google.com/project/deepakwebsite-a0cd0/overview";
+        var params = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["e" /* URLSearchParams */]();
+        var headers = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["a" /* Headers */]({ 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' });
+        var options = new __WEBPACK_IMPORTED_MODULE_5__angular_http__["d" /* RequestOptions */]({ headers: headers });
+        params.set('to', 'drdeepaknagercoil@gmail.com');
+        params.set('from', 'hello@gmail.com');
+        params.set('subject', 'test-email');
+        params.set('content', 'Hello World');
+        return this.http.post(url, params, options)
+            .map(function (res) { return res.json(); })
+            .toPromise()
+            .then(function (res) {
+            console.log(res);
+        })
+            .catch(function (err) {
+            console.log(err);
+        });
+    };
     ContactComponent.prototype.getErrorMessage = function () {
         return this.email.hasError('required') ? 'You must enter a value' :
             this.email.hasError('email') ? 'Not a valid email' :
@@ -350,15 +419,23 @@ var ContactComponent = (function () {
     return ContactComponent;
 }());
 ContactComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-contact',
         template: __webpack_require__("../../../../../src/app/contact/contact.component.html"),
         styles: [__webpack_require__("../../../../../src/app/contact/contact.component.css")]
     }),
-    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2_database_deprecated__["a" /* AngularFireDatabase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2_database_deprecated__["a" /* AngularFireDatabase */]) === "function" && _b || Object])
+    __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3_angularfire2_auth__["a" /* AngularFireAuth */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2_angularfire2_database_deprecated__["a" /* AngularFireDatabase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2_angularfire2_database_deprecated__["a" /* AngularFireDatabase */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__angular_http__["b" /* Http */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__angular_http__["b" /* Http */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_4__angular_material__["g" /* MatSnackBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_material__["g" /* MatSnackBar */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_8_angular4_notify__["NotificationsService"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8_angular4_notify__["NotificationsService"]) === "function" && _e || Object])
 ], ContactComponent);
 
-var _a, _b;
+var _a, _b, _c, _d, _e;
+/**snackbar
+@Component({
+  selector: 'snack-bar-component-example-snack',
+  templateUrl: 'snack-bar-component-example-snack.html',
+  styles: [`.example-pizza-party { color: hotpink; }`],
+})
+export class PizzaPartyComponent {}
+**/ 
 //# sourceMappingURL=contact.component.js.map
 
 /***/ }),
@@ -371,7 +448,7 @@ exports = module.exports = __webpack_require__("../../../../css-loader/lib/css-b
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans);", ""]);
 
 // module
-exports.push([module.i, ".card {\r\n  background-color: #f4f4f4;\r\n  width: 300px;\r\nheight:470px;\r\n  margin: 10px auto;\r\n  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n}\r\n\r\n.card-header {\r\n  overflow: hidden;\r\n  width: 100%;\r\n  max-height: 200px;\r\n}\r\n\r\n.card-header img{\r\n  display: block;\r\n  margin: auto;\r\n  width: 75%;\r\n}\r\n\r\n.card-content {\r\n  width: 85%;\r\n  margin: 35px auto;\r\n}\r\n\r\n.card-content h3 {\r\n  font-size: 25px;\r\n  margin-bottom: 0;\r\n  color: #303F9F;\r\n  font-family: 'Montserrat', sans-serif;\r\n}\r\n\r\n.card-content h4 {\r\n  font-size: 14px;\r\n  margin-top: 0;\r\n  color: #FF5252;\r\n  font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\n.card-content p {\r\n  color: #727272;\r\n  font-size: 12px;\r\n  font-family: 'Open Sans', sans-serif;\r\n  \r\n}\r\nh2 {\r\n  font: 30px 'Arizonia', Helvetica, sans-serif;\r\n  color: #2b2b2b;\r\n  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); \r\n}\r\n\r\n\r\n\r\nbody {\r\n  /* The image used */\r\n  background-image: url(\"https://images6.alphacoders.com/429/429155.jpg\");\r\n  position: fixed; \r\n   top: 08%; \r\n    left: 0; \r\n  /* Full height */\r\n  \r\n  min-width:100%;\r\n  min-height: 100%;\r\n  /* Center and scale the image nicely */\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-size: 100% 100%;\r\n}\r\n/*iPhone 6 in landscape*/\r\n@media only screen \r\nand (min-device-width : 375px) \r\nand (max-device-width : 667px) \r\nand (orientation : landscape) { body {\r\n  /* The image used */\r\n  background-image: url(\"https://images6.alphacoders.com/429/429155.jpg\");\r\n  position: fixed; \r\n   top: 10%; \r\n    left: 0; \r\n  /* Full height */\r\n  \r\n  min-width:100%;\r\n  min-height: 100%;\r\n  /* Center and scale the image nicely */\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-size: 100% 100%;\r\n}\r\n  \r\n.card-header img{\r\n  width:60px;\r\n\r\n  margin:auto;\r\n   \r\n}\r\n.card-content {\r\nwidth: 50%;\r\nmargin: 35px auto;\r\n}\r\nh2 {\r\nfont: 16px 'Arizonia', Helvetica, sans-serif;\r\ncolor: #2b2b2b;\r\ntext-shadow: 4px 4px 0px rgba(0,0,0,0.1); \r\n}\r\n\r\n.card-content h4 {\r\nfont-size: 10px;\r\nmargin-top: 0;\r\ncolor: #FF5252;\r\nfont-family: 'Montserrat', sans-serif;\r\n}\r\n\r\n.card-content p {\r\ncolor: #727272;\r\nfont-size: 8px;\r\nfont-family: 'Open Sans', sans-serif;\r\n\r\n}\r\n.card {\r\nbackground-color: #f4f4f4;\r\nwidth: 200px;\r\nmargin: 10px auto;\r\n\r\nbox-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n}\r\n\r\n.card-header {\r\noverflow: hidden;\r\nwidth: 100%;\r\nmax-height: 60px;\r\n}\r\n}\r\n/*iPhone 6plus landscape*/\r\n@media only screen \r\nand (min-device-width : 414px) \r\nand (max-device-width : 736px) \r\nand (orientation : landscape) {  body {\r\n  /* The image used */\r\n  background-image: url(\"https://images6.alphacoders.com/429/429155.jpg\");\r\n  position: fixed; \r\n   top: 10%; \r\n    left: 0; \r\n  /* Full height */\r\n  \r\n  min-width:100%;\r\n  min-height: 100%;\r\n  /* Center and scale the image nicely */\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-size: 100% 100%;\r\n}\r\n}\r\n\r\n  /*nexus 5x*/\r\n  @media only screen\r\n  and (min-height: 361px)\r\n  and (max-height: 411px)\r\n  and (min-width: 641px)\r\n  and (max-width: 731px)\r\n  and (orientation:landscape){\r\n    .card-content {\r\n      width: 50%;\r\n      margin: 35px auto;\r\n    }\r\n    \r\n    .card-content h2 {\r\n      font-size: 16px;\r\n      margin-bottom: 0;\r\n      color: #303F9F;\r\n      font-family: 'Montserrat', sans-serif;\r\n    }\r\n    \r\n    .card-content h4 {\r\n      font-size: 10px;\r\n      margin-top: 0;\r\n      color: #FF5252;\r\n      font-family: 'Montserrat', sans-serif;\r\n    }\r\n    \r\n    .card-content p {\r\n      color: #727272;\r\n      font-size: 10px;\r\n      font-family: 'Open Sans', sans-serif;\r\n      \r\n    }\r\n    .card {\r\n      background-color: #f4f4f4;\r\n      width: 300px;\r\n      margin: 10px auto;\r\n      box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n    }\r\n    \r\n    .card-header {\r\n      overflow: hidden;\r\n      width: 100%;\r\n      max-height: 80px;\r\n    }\r\n    \r\n    .card-header img{\r\n      width:80px;\r\n      \r\n        margin:auto;\r\n     \r\n    }\r\n    \r\n  }\r\n/* Samsung Galaxy S5 ----------- */\r\n@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){\r\n  .card-content {\r\n    width: 50%;\r\n    margin: 35px auto;\r\n  }\r\n  \r\n  .card-content h3 {\r\n    font-size: 12px;\r\n    margin-bottom: 0;\r\n    color: #303F9F;\r\n    font-family: 'Montserrat', sans-serif;\r\n  }\r\n  \r\n  .card-content h4 {\r\n    font-size: 8px;\r\n    margin-top: 0;\r\n    color: #FF5252;\r\n    font-family: 'Montserrat', sans-serif;\r\n  }\r\n  \r\n  .card-content p {\r\n    color: #727272;\r\n    font-size: 10px;\r\n    font-family: 'Open Sans', sans-serif;\r\n    \r\n  }\r\n  .card {\r\n    background-color: #f4f4f4;\r\n    width: 300px;\r\n    margin: 10px auto;\r\n    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n  }\r\n  \r\n  .card-header {\r\n    overflow: hidden;\r\n    width: 100%;\r\n    max-height: 50px;\r\n  }\r\n  \r\n  .card-header img{\r\n    width: 60px;\r\n    position: fixed;\r\n     \r\n  }\r\n  }\r\n/* Nexus 6p */\r\n  @media only screen\r\n  and (min-height: 412px)\r\n  and (max-height: 435px)\r\n  and (min-width: 732px)\r\n  and (max-width: 773px)\r\n  and (orientation:landscape){\r\n    .card-content {\r\n      width: 50%;\r\n      margin: 35px auto;\r\n    }\r\n    \r\n    .card-content h3 {\r\n      font-size: 12px;\r\n      margin-bottom: 0;\r\n      color: #303F9F;\r\n      font-family: 'Montserrat', sans-serif;\r\n    }\r\n    \r\n    .card-content h4 {\r\n      font-size: 8px;\r\n      margin-top: 0;\r\n      color: #FF5252;\r\n      font-family: 'Montserrat', sans-serif;\r\n    }\r\n    \r\n    .card-content p {\r\n      color: #727272;\r\n      font-size: 10px;\r\n      font-family: 'Open Sans', sans-serif;\r\n      \r\n    }\r\n    .card {\r\n      background-color: #f4f4f4;\r\n      width: 300px;\r\n      margin: 10px auto;\r\n      box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n    }\r\n    \r\n    .card-header {\r\n      overflow: hidden;\r\n      width: 100%;\r\n      max-height: 50px;\r\n    }\r\n    \r\n    .card-header img{\r\n      width: 60px;\r\n      position: fixed;\r\n       \r\n    }\r\n  }\r\n \r\n/* iphone5*/\r\n  @media only screen \r\n  and (min-device-width : 320px) \r\n  and (max-device-width : 568px) \r\n  and (orientation : landscape) { \r\n  \r\n    .card-header img{\r\n      width:60px;\r\n    \r\n      margin:auto;\r\n       \r\n    }\r\n    .card-content {\r\n  width: 50%;\r\n  margin: 35px auto;\r\n}\r\nh2 {\r\n  font: 10px 'Arizonia', Helvetica, sans-serif;\r\n  color: #2b2b2b;\r\n  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); \r\n}\r\n\r\n.card-content h4 {\r\n  font-size: 7px;\r\n  margin-top: 0;\r\n  color: #FF5252;\r\n  font-family: 'Montserrat', sans-serif;\r\n}\r\n\r\n.card-content p {\r\n  color: #727272;\r\n  font-size: 6px;\r\n  font-family: 'Open Sans', sans-serif;\r\n  \r\n}\r\n.card {\r\n  background-color: #f4f4f4;\r\n  width: 200px;\r\n  margin: 10px auto;\r\n  \r\n  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n}\r\n\r\n.card-header {\r\n  overflow: hidden;\r\n  width: 100%;\r\n  max-height: 60px;\r\n}\r\nbody {\r\n  /* The image used */\r\n  background-image: url(\"https://images6.alphacoders.com/429/429155.jpg\");\r\n  position: fixed; \r\n   top: 40px; \r\n    left: 0; \r\n  /* Full height */\r\n  \r\n  min-width:100%;\r\n  min-height: 100%;\r\n  /* Center and scale the image nicely */\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-size: 100% 100%;\r\n}\r\n  }", ""]);
+exports.push([module.i, ".card {\r\n  background-color: #f4f4f4;\r\n  width: 300px;\r\nheight:470px;\r\n  margin: 10px auto;\r\n  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n}\r\n\r\n.card-header {\r\n  overflow: hidden;\r\n  width: 100%;\r\n  max-height: 200px;\r\n}\r\n\r\n.card-header img{\r\n  display: block;\r\n  margin: auto;\r\n  width: 75%;\r\n}\r\n\r\n.card-content {\r\n  width: 85%;\r\n  margin: 35px auto;\r\n}\r\n\r\n.card-content h3 {\r\n  font-size: 25px;\r\n  margin-bottom: 0;\r\n  color: #303F9F;\r\n  font-family: 'Montserrat', sans-serif;\r\n}\r\n\r\n.card-content h4 {\r\n  font-size: 14px;\r\n  margin-top: 0;\r\n  color:cornflowerblue;\r\n  font-family: 'Open Sans', sans-serif;\r\n}\r\n\r\n.card-content p {\r\n  color: #727272;\r\n  font-size: 12px;\r\n  font-family: 'Open Sans', sans-serif;\r\n  \r\n}\r\nh2 {\r\n  font: 30px 'Arizonia', Helvetica, sans-serif;\r\n  color: #2b2b2b;\r\n  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); \r\n}\r\n\r\n\r\n\r\nbody {\r\n  /* The image used */\r\n  background-image: url('/../assets/images/homebackground.jpg');\r\n  position: fixed; \r\n   top: 08%; \r\n    left: 0; \r\n  /* Full height */\r\n  \r\n  min-width:100%;\r\n  min-height: 100%;\r\n  /* Center and scale the image nicely */\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-size: 100% 100%;\r\n}\r\n/*iPhone 6 in landscape*/\r\n@media only screen \r\nand (min-device-width : 375px) \r\nand (max-device-width : 667px) \r\nand (orientation : landscape) { body {\r\n  /* The image used */\r\n  background-image: url('/../assets/images/homebackground.jpg');\r\n  position: fixed; \r\n   top: 10%; \r\n    left: 0; \r\n  /* Full height */\r\n  \r\n  min-width:100%;\r\n  min-height: 100%;\r\n  /* Center and scale the image nicely */\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-size: 100% 100%;\r\n}\r\n  \r\n.card-header img{\r\n  width:60px;\r\n\r\n  margin:auto;\r\n   \r\n}\r\n.card-content {\r\nwidth: 50%;\r\nmargin: 35px auto;\r\n}\r\nh2 {\r\nfont: 16px 'Arizonia', Helvetica, sans-serif;\r\ncolor: #2b2b2b;\r\ntext-shadow: 4px 4px 0px rgba(0,0,0,0.1); \r\n}\r\n\r\n.card-content h4 {\r\nfont-size: 10px;\r\nmargin-top: 0;\r\ncolor:cornflowerblue;\r\nfont-family: 'Montserrat', sans-serif;\r\n}\r\n\r\n.card-content p {\r\ncolor: #727272;\r\nfont-size: 8px;\r\nfont-family: 'Open Sans', sans-serif;\r\n\r\n}\r\n.card {\r\nbackground-color: #f4f4f4;\r\nwidth: 200px;\r\nmargin: 10px auto;\r\n\r\nbox-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n}\r\n\r\n.card-header {\r\noverflow: hidden;\r\nwidth: 100%;\r\nmax-height: 60px;\r\n}\r\n}\r\n/*iPhone 6plus landscape*/\r\n@media only screen \r\nand (min-device-width : 414px) \r\nand (max-device-width : 736px) \r\nand (orientation : landscape) {  body {\r\n  /* The image used */\r\n  background-image: url('/../assets/images/homebackground.jpg');\r\n  position: fixed; \r\n   top: 10%; \r\n    left: 0; \r\n  /* Full height */\r\n  \r\n  min-width:100%;\r\n  min-height: 100%;\r\n  /* Center and scale the image nicely */\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-size: 100% 100%;\r\n}\r\n}\r\n\r\n  /*nexus 5x*/\r\n  @media only screen\r\n  and (min-height: 361px)\r\n  and (max-height: 411px)\r\n  and (min-width: 641px)\r\n  and (max-width: 731px)\r\n  and (orientation:landscape){\r\n    .card-content {\r\n      width: 50%;\r\n      margin: 35px auto;\r\n    }\r\n    \r\n    .card-content h2 {\r\n      font-size: 16px;\r\n      margin-bottom: 0;\r\n      color: #303F9F;\r\n      font-family: 'Montserrat', sans-serif;\r\n    }\r\n    \r\n    .card-content h4 {\r\n      font-size: 10px;\r\n      margin-top: 0;\r\n      color:cornflowerblue;\r\n      font-family: 'Montserrat', sans-serif;\r\n    }\r\n    \r\n    .card-content p {\r\n      color: #727272;\r\n      font-size: 10px;\r\n      font-family: 'Open Sans', sans-serif;\r\n      \r\n    }\r\n    .card {\r\n      background-color: #f4f4f4;\r\n      width: 300px;\r\n      margin: 10px auto;\r\n      box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n    }\r\n    \r\n    .card-header {\r\n      overflow: hidden;\r\n      width: 100%;\r\n      max-height: 80px;\r\n    }\r\n    \r\n    .card-header img{\r\n      width:80px;\r\n      \r\n        margin:auto;\r\n     \r\n    }\r\n    \r\n  }\r\n/* Samsung Galaxy S5 ----------- */\r\n@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){\r\n  .card-content {\r\n    width: 50%;\r\n    margin: 35px auto;\r\n  }\r\n  \r\n  .card-content h3 {\r\n    font-size: 12px;\r\n    margin-bottom: 0;\r\n    color: #303F9F;\r\n    font-family: 'Montserrat', sans-serif;\r\n  }\r\n  \r\n  .card-content h4 {\r\n    font-size: 8px;\r\n    margin-top: 0;\r\n    color:cornflowerblue;\r\n    font-family: 'Montserrat', sans-serif;\r\n  }\r\n  \r\n  .card-content p {\r\n    color: #727272;\r\n    font-size: 10px;\r\n    font-family: 'Open Sans', sans-serif;\r\n    \r\n  }\r\n  .card {\r\n    background-color: #f4f4f4;\r\n    width: 300px;\r\n    margin: 10px auto;\r\n    box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n  }\r\n  \r\n  .card-header {\r\n    overflow: hidden;\r\n    width: 100%;\r\n    max-height: 50px;\r\n  }\r\n  \r\n  .card-header img{\r\n    width: 60px;\r\n    position: fixed;\r\n     \r\n  }\r\n  }\r\n/* Nexus 6p */\r\n  @media only screen\r\n  and (min-height: 412px)\r\n  and (max-height: 435px)\r\n  and (min-width: 732px)\r\n  and (max-width: 773px)\r\n  and (orientation:landscape){\r\n    .card-content {\r\n      width: 50%;\r\n      margin: 35px auto;\r\n    }\r\n    \r\n    .card-content h3 {\r\n      font-size: 12px;\r\n      margin-bottom: 0;\r\n      color: #303F9F;\r\n      font-family: 'Montserrat', sans-serif;\r\n    }\r\n    \r\n    .card-content h4 {\r\n      font-size: 8px;\r\n      margin-top: 0;\r\n      color:cornflowerblue;\r\n      font-family: 'Montserrat', sans-serif;\r\n    }\r\n    \r\n    .card-content p {\r\n      color: #727272;\r\n      font-size: 10px;\r\n      font-family: 'Open Sans', sans-serif;\r\n      \r\n    }\r\n    .card {\r\n      background-color: #f4f4f4;\r\n      width: 300px;\r\n      margin: 10px auto;\r\n      box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n    }\r\n    \r\n    .card-header {\r\n      overflow: hidden;\r\n      width: 100%;\r\n      max-height: 50px;\r\n    }\r\n    \r\n    .card-header img{\r\n      width: 60px;\r\n      position: fixed;\r\n       \r\n    }\r\n  }\r\n \r\n/* iphone5*/\r\n  @media only screen \r\n  and (min-device-width : 320px) \r\n  and (max-device-width : 568px) \r\n  and (orientation : landscape) { \r\n  \r\n    .card-header img{\r\n      width:60px;\r\n    \r\n      margin:auto;\r\n       \r\n    }\r\n    .card-content {\r\n  width: 50%;\r\n  margin: 35px auto;\r\n}\r\nh2 {\r\n  font: 10px 'Arizonia', Helvetica, sans-serif;\r\n  color: #2b2b2b;\r\n  text-shadow: 4px 4px 0px rgba(0,0,0,0.1); \r\n}\r\n\r\n.card-content h4 {\r\n  font-size: 7px;\r\n  margin-top: 0;\r\n  color:cornflowerblue;\r\n  font-family: 'Montserrat', sans-serif;\r\n}\r\n\r\n.card-content p {\r\n  color: #727272;\r\n  font-size: 6px;\r\n  font-family: 'Open Sans', sans-serif;\r\n  \r\n}\r\n.card {\r\n  background-color: #f4f4f4;\r\n  width: 200px;\r\n  margin: 10px auto;\r\n  \r\n  box-shadow: 1px 1px 10px 1px rgba(0,0,0,0.7);\r\n}\r\n\r\n.card-header {\r\n  overflow: hidden;\r\n  width: 100%;\r\n  max-height: 60px;\r\n}\r\nbody {\r\n  /* The image used */\r\n  background-image: url('/../assets/images/homebackground.jpg');\r\n  position: fixed; \r\n   top: 40px; \r\n    left: 0; \r\n  /* Full height */\r\n  \r\n  min-width:100%;\r\n  min-height: 100%;\r\n  /* Center and scale the image nicely */\r\n  background-position: center;\r\n  background-repeat: no-repeat;\r\n  background-size: cover;\r\n  background-size: 100% 100%;\r\n}\r\n  }", ""]);
 
 // exports
 
@@ -384,7 +461,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/home/home.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<!DOCTYPE html>\r\n<html>\r\n    <head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\">\r\n          \r\n    </head>\r\n <body>\r\n  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>\r\n  \r\n  \r\n  \r\n \r\n    \r\n      <div class=\"card\">\r\n          <div class=\"card-header\">\r\n            <img src=\"../assets/images/Deepak1.jpg\" />\r\n          </div>\r\n          <div class=\"card-content\">\r\n            <h2>Dr.Deepak David's Urology Care</h2>\r\n            <h4>Protect your kidneys ,Save your heart.</h4>\r\n            <p>The good physician treats the disease;the great physician treats the patient who has the disease ~~William Osler</p>\r\n          </div>\r\n          \r\n        </div>\r\n        \r\n </body>\r\n\r\n\r\n\r\n"
+module.exports = "<!DOCTYPE html>\r\n<html>\r\n    <head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\">\r\n          \r\n    </head>\r\n <body>\r\n  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>\r\n  \r\n  \r\n  \r\n \r\n    \r\n      <div class=\"card\">\r\n          <div class=\"card-header\">\r\n            <img src=\"../assets/images/Deepak1.jpg\" alt=\"\"/>\r\n          </div>\r\n          <div class=\"card-content\">\r\n            <h2>Dr.Deepak David's Urology Care</h2>\r\n            <h4>Protect your kidneys ,Save your heart.</h4>\r\n            <p>The good physician treats the disease;the great physician treats the patient who has the disease ~~William Osler</p>\r\n          </div>\r\n          \r\n        </div>\r\n        \r\n </body>\r\n\r\n\r\n\r\n"
 
 /***/ }),
 
@@ -412,7 +489,7 @@ var HomeComponent = (function () {
     return HomeComponent;
 }());
 HomeComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-home',
         template: __webpack_require__("../../../../../src/app/home/home.component.html"),
         styles: [__webpack_require__("../../../../../src/app/home/home.component.css")]
@@ -445,7 +522,7 @@ module.exports = module.exports.toString();
 /***/ "../../../../../src/app/services/services.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\r\n<head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\"></head>\r\n<section>\r\n  <h3>Services</h3>\r\n  <p class=\"section-lead\">Variety of services performed.</p>\r\n  <div class=\"services-grid\">\r\n    <div class=\"service service1\">\r\n      <i class=\"ti-bar-chart\"></i>\r\n      <h4>Major </h4>\r\n      <p>Renal / Ureteric/ Bladder Stones</p>\r\n      <h4>Uro-Oncology</h4>\r\n      <p>Management of bladder/ renal/ penile/ testicular cancer\r\n          laparoscopic urology</p>\r\n           <!--<a href=\"#\" class=\"cta\">Read More <span class=\"ti-angle-right\"></span></a>-->\r\n    </div>\r\n\r\n    <div class=\"service service2\">\r\n      <i class=\"ti-light-bulb\"></i>\r\n      <h4>Reconstructive Urology</h4>\r\n      <p>Uretheral structure disease <br><h5>( buccal mucosal graft urethroplasty)</h5> pelvic ureteric junction obstruction <br><h5>( Pyeloplasty)</h5></p>\r\n        <h4> Paediatric Urology:</h4>\r\n        <p>Hypospadias, vesicoureteric reflux disease, pediatric stone management, dysfunctional voiding.</p>\r\n      <!--<a href=\"#\" class=\"cta\">Read More <span class=\"ti-angle-right\"></span></a>-->\r\n    </div>\r\n\r\n    <div class=\"service service3\">\r\n      <i class=\"ti-money\"></i>\r\n      <h4>Prostate Disease</h4>\r\n      <p>BPH, Ca Prostate </p>\r\n      <h4>Uro Gynecology:</h4>\r\n      <p>Management of stress incontinence, iatrogenic ureteral/ bladder injury.</p>\r\n       <!--<a href=\"#\" class=\"cta\">Read more <span class=\"ti-angle-right\"></span></a>-->\r\n    </div>\r\n  </div>\r\n</section>"
+module.exports = "\r\n<head><link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css\"></head>\r\n<section>\r\n  <h3>Services</h3>\r\n \r\n  <div class=\"services-grid\">\r\n    <div class=\"service service1\">\r\n      <i class=\"ti-bar-chart\"></i>\r\n      <h4>Major </h4>\r\n      <p>Renal / Ureteric/ Bladder Stones</p>\r\n      <h4>Uro-Oncology</h4>\r\n      <p>Management of bladder/ Renal/ Penile/ Testicular cancer &\r\n          Laparoscopic urology.</p>\r\n           <!--<a href=\"#\" class=\"cta\">Read More <span class=\"ti-angle-right\"></span></a>-->\r\n    </div>\r\n\r\n    <div class=\"service service2\">\r\n      <i class=\"ti-light-bulb\"></i>\r\n      <h4>Reconstructive Urology</h4>\r\n      <p>Uretheral structure disease <br><h5>(Buccal mucosal graft urethroplasty)</h5> Pelvic ureteric junction obstruction <br><h5>(Pyeloplasty)</h5></p>\r\n        <h4> Paediatric Urology</h4>\r\n        <p>Hypospadias, Vesicoureteric reflux disease, Paediatric stone management, Dysfunctional voiding.</p>\r\n      <!--<a href=\"#\" class=\"cta\">Read More <span class=\"ti-angle-right\"></span></a>-->\r\n    </div>\r\n\r\n    <div class=\"service service3\">\r\n      <i class=\"ti-money\"></i>\r\n      <h4>Prostate Disease</h4>\r\n      <p>BPH, Ca Prostate </p>\r\n      <h4>Uro Gynecology</h4>\r\n      <p>Management of stress incontinence, Iatrogenic ureteral/ Bladder injury.</p>\r\n       <!--<a href=\"#\" class=\"cta\">Read more <span class=\"ti-angle-right\"></span></a>-->\r\n    </div>\r\n  </div>\r\n</section>"
 
 /***/ }),
 
@@ -473,7 +550,7 @@ var ServicesComponent = (function () {
     return ServicesComponent;
 }());
 ServicesComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-services',
         template: __webpack_require__("../../../../../src/app/services/services.component.html"),
         styles: [__webpack_require__("../../../../../src/app/services/services.component.css")]
@@ -557,7 +634,7 @@ var TestimonialComponent = (function () {
     return TestimonialComponent;
 }());
 TestimonialComponent = __decorate([
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["o" /* Component */])({
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
         selector: 'app-testimonial',
         template: __webpack_require__("../../../../../src/app/testimonial/testimonial.component.html"),
         styles: [__webpack_require__("../../../../../src/app/testimonial/testimonial.component.css")]
@@ -601,7 +678,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_23" /* enableProdMode */])();
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */]);
 //# sourceMappingURL=main.js.map
